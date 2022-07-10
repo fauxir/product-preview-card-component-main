@@ -1,4 +1,112 @@
 body {
     display: flex;
+    background-color: hsl(32, 27%, 74%)
+}
+
+
+
+.main-container{
+    display: flex;
+    border-radius: 10px;
+    background: #ffffff;
+    width: 600px;
+    height: 450px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.image{
+    width: auto;
+    height: 450px; 
+    border-radius: 10px 0  0 10px;
+    text-align: right;
+    justify-content: left;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-around;
+    text-align: left;
+
     
+}
+
+.text-align{
+    display: flex;  
+    border: 40px;
+    margin: 40px;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+}
+
+.parfume{
+    align-items: flex-start;
+    font-family: "Montserrat", sans-serif ;
+}
+
+.tile{
+font-family: 'Fraunces';
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+
+line-height: 100px;
+}
+
+.text{
+    font-family: "Fraunces", sans-serif !important;
+    line-height: 25px;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    color: #3D8168;
+}
+
+.init-price{
+    padding: 20px;
+    text-decoration:line-through;
+    color: grey;
+}
+
+.button{
+    display: flex;
+    background-color: #3D8168;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50x;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.button:hover{
+    display: flex;
+    background-color: #03462d;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50x;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.icon{
+    margin:10px;
 }
