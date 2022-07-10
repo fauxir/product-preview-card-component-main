@@ -53,7 +53,7 @@ body {
 }
 
 .tile{
-font-family: 'Fraunces';
+font-family: "Fraunces", sans-serif;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -62,7 +62,7 @@ line-height: 100px;
 }
 
 .text{
-    font-family: "Fraunces", sans-serif !important;
+    font-family: "Fraunces", sans-serif;
     line-height: 25px;
 }
 
@@ -73,6 +73,8 @@ line-height: 100px;
 
 .price{
     color: #3D8168;
+    font-family: "Fraunces";
+    font-weight: bold;
 }
 
 .init-price{
